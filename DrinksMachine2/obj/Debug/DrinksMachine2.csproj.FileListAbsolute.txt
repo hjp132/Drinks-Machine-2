@@ -1,0 +1,7 @@
+C:\Users\PalmerH\Documents\coursework\assignmentstakehome\DrinksMachine2.0\DrinksMachine2\DrinksMachine2\bin\Debug\DrinksMachine2.exe.config
+C:\Users\PalmerH\Documents\coursework\assignmentstakehome\DrinksMachine2.0\DrinksMachine2\DrinksMachine2\bin\Debug\DrinksMachine2.exe
+C:\Users\PalmerH\Documents\coursework\assignmentstakehome\DrinksMachine2.0\DrinksMachine2\DrinksMachine2\bin\Debug\DrinksMachine2.pdb
+C:\Users\PalmerH\Documents\coursework\assignmentstakehome\DrinksMachine2.0\DrinksMachine2\DrinksMachine2\obj\Debug\DrinksMachine2.csprojAssemblyReference.cache
+C:\Users\PalmerH\Documents\coursework\assignmentstakehome\DrinksMachine2.0\DrinksMachine2\DrinksMachine2\obj\Debug\DrinksMachine2.csproj.CoreCompileInputs.cache
+C:\Users\PalmerH\Documents\coursework\assignmentstakehome\DrinksMachine2.0\DrinksMachine2\DrinksMachine2\obj\Debug\DrinksMachine2.exe
+C:\Users\PalmerH\Documents\coursework\assignmentstakehome\DrinksMachine2.0\DrinksMachine2\DrinksMachine2\obj\Debug\DrinksMachine2.pdb
