@@ -162,65 +162,49 @@ namespace DrinksMachine
             if (tea == true && milk == true && sugar == true)
             {
                 Console.WriteLine("\nTea with milk and sugar. This has been ordered: " + (++teaMilkSugarCount) + " time(s).");
-                numCups = (numCups - 1);
-                numTea = (numTea - 1);
-                numMilk = (numMilk - 1);
-                numSugar = (numSugar - 1);
+                --numCups; --numTea; --numMilk; --numSugar;
             }
             // if the user has opted for tea and milk
             if (tea == true && milk == true && sugar == false)
             {
                 Console.WriteLine("\nTea with milk. This has been ordered: " + (++teaMilkCount) + " time(s).");
-                numCups = (numCups - 1);
-                numTea = (numTea - 1);
-                numMilk = (numMilk - 1);
+                --numCups; --numTea; --numMilk; 
             }
             // if the user has opted for tea and sugar
             if (tea == true && milk == false && sugar == true)
             {
                 Console.WriteLine("\nTea with sugar. This has been ordered: " + (++teaSugarCount) + " time(s).");
-                numCups = (numCups - 1);
-                numTea = (numTea - 1);
-                numSugar = (numSugar - 1);
+                --numCups; --numTea; --numSugar;
             }
             // if the user has opted for just tea
             if (tea == true && milk == false && sugar == false)
             {
                 Console.WriteLine("\nJust Tea. This has been ordered: " + (++teaCount) + " time(s).");
-                numCups = (numCups - 1);
-                numTea = (numTea - 1);
+                --numCups; --numTea;
             }
             // if the user has opted for coffee, milk and sugar
             if (coffee == true && milk == true && sugar == true)
             {
                 Console.WriteLine("\nCoffee with milk and sugar. This has been ordered: " + (++coffeeMilkSugarCount) + " time(s).");
-                numCups = (numCups - 1);
-                numCoffee = (numCoffee - 1);
-                numMilk = (numMilk - 1);
-                numSugar = (numSugar - 1);
+                --numCups; --numCoffee; --numMilk; --numSugar;
             }
             // if the user has opted for coffee and milk
             if (coffee == true && milk == true && sugar == false)
             {
                 Console.WriteLine("\nCoffee with milk. This has been ordered: " + (++coffeeMilkCount) + " time(s).");
-                numCups = (numCups - 1);
-                numCoffee = (numCoffee - 1);
-                numMilk = (numMilk - 1);
+                --numCups; --numCoffee; --numMilk;
             }
             // if the user has opted for coffee and sugar
             if (coffee == true && milk == false && sugar == true)
             {
                 Console.WriteLine("\nCoffee with sugar. This has been ordered: " + (++coffeeSugarCount) + " time(s).");
-                numCups = (numCups - 1);
-                numCoffee = (numCoffee - 1);
-                numSugar = (numSugar - 1);
+                --numCups; --numCoffee; --numSugar;
             }
             // if the user has opted for just coffee
             if (coffee == true && milk == false && sugar == false)
             {
                 Console.WriteLine("\nJust Coffee. This has been ordered: " + (++coffeeCount) + " time(s).");
-                numCups = (numCups - 1);
-                numCoffee = (numCoffee - 1);
+                --numCups; --numCoffee;
             } 
         }
         static void Quit()
